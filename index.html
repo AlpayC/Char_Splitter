@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Cutter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav></nav>
+    <header>
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <section class="forminput">
+        <h1>Zeichenkettentrennungsmaschine</h1>
+        <form onsubmit="cutString(); return false">
+          <label for="textarea">Zu trennende Zeichenkette:</label>
+          <textarea
+            style="resize: none"
+            type="textarea"
+            id="string"
+            rows="4"
+          ></textarea>
+          <label for="text">Zeichenkette für die Trennungsposition:</label>
+          <input type="text" id="cutstring" />
+          <div class="radios">
+            <div class="radiowrapper">
+              <input type="radio" name="wotrennen" id="beforestring" />
+              <label for="radio">davor trennen</label>
+            </div>
+            <div class="radiowrapper">
+              <input type="radio" name="wotrennen" id="afterstring" />
+              <label for="radio">danach trennen</label>
+            </div>
+          </div>
+          <input type="submit" value="Daten absenden" id="btn" />
+        </form>
+      </section>
+      <section class="formoutput">
+        <h2>Ausgabe</h2>
+        <div class="wrapper">
+          <section class="output-wrapper">
+            <h3>Vorderer Teil</h3>
+            <p class="output-vorne"></p>
+          </section>
+          <section class="output-wrapper">
+            <h3>Hinterer Teil</h3>
+            <p class="output-hinten"></p>
+          </section>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+  </body>
+</html>
