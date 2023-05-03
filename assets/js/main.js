@@ -25,7 +25,7 @@ function cutString() {
     outputVorne.style.background = "rgb(226, 226, 226)";
     outputHinten.style.background = "rgb(226, 226, 226)";
   } else if (radioAfter.checked) {
-    outputVorne.innerHTML = splittedTxt + " " + stringWrd;
+    outputVorne.innerHTML = splittedTxt + stringWrd;
     outputHinten.innerHTML = stringTxt.split("" + stringWrd + "")[1];
     outputVorne.style.background = "rgb(226, 226, 226)";
     outputHinten.style.background = "rgb(226, 226, 226)";
