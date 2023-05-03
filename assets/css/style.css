@@ -69,18 +69,29 @@ header {
   font-size: 2.6rem;
 }
 
-input[type="submit"] {
+input[type="submit"],
+#resetbtn {
   background-color: rgb(36, 36, 222);
   color: white;
   border-radius: 5px;
   border: 0;
   transition: all ease-in-out 0.5s;
 }
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+#resetbtn:hover {
   background-color: rgb(155, 155, 227);
   color: rgb(36, 36, 36);
   transform: scale(1.05);
   font-family: avenirblack;
+  cursor: pointer;
+}
+#resetbtn {
+  background-color: transparent;
+  margin-top: 1rem;
+  color: rgb(36, 36, 36);
+}
+#resetbtn:hover {
+  background-color: transparent;
 }
 
 .forminput,
@@ -128,12 +139,14 @@ input[type="submit"]:hover {
 
 textarea,
 #cutstring,
-#btn {
+#btn,
+#resetbtn {
   width: 100%;
   font-size: 2.4rem;
 }
 
-#btn {
+#btn,
+#resetbtn {
   padding: 2rem;
   font-size: 3.4rem;
 }

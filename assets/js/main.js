@@ -6,8 +6,6 @@ function cutString() {
   let outputHinten = document.querySelector(".output-hinten");
   const radioBefore = document.querySelector("#beforestring");
   const radioAfter = document.querySelector("#afterstring");
-  const nonBgClass = document.querySelector(".nonanimatedbg");
-
   //   Checkt, ob überhaupt ein Wert in irgendeinem der beiden Inputs eingegeben wurde. Danach wird ein Alert ausgegeben
   if (stringWrd == "" || stringTxt == "") {
     alert("Bitte gebe die Zeichenkette und dein String ein");
