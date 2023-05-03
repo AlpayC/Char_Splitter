@@ -54,6 +54,8 @@ h1,
 h2 {
   font-family: avenirblack;
   text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
 }
 
 header {
@@ -63,6 +65,8 @@ header {
   padding: 2rem;
   margin: 10rem;
   border-radius: 20px;
+  height: 80vh;
+  font-size: 2.6rem;
 }
 
 input[type="submit"] {
@@ -82,7 +86,7 @@ input[type="submit"]:hover {
 .forminput,
 .formoutput {
   background-color: rgb(250, 254, 255);
-  padding: 2rem;
+  padding: 2em;
   border-radius: 20px;
   box-shadow: 0px 0px 4px 3px rgb(243, 242, 242);
   position: relative;
@@ -91,7 +95,7 @@ input[type="submit"]:hover {
 .output-wrapper p {
   background-color: rgb(226, 226, 226);
   border-radius: 2px;
-  padding: 0.5rem;
+  padding: 1.5rem;
   background: repeating-linear-gradient(
       -45deg,
       rgba(204, 204, 204, 0.125),
@@ -126,12 +130,16 @@ textarea,
 #cutstring,
 #btn {
   width: 100%;
+  font-size: 2.4rem;
 }
 
+#btn {
+  padding: 2rem;
+}
 .radiowrapper {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   align-items: center;
 }
 .radios {
@@ -139,8 +147,12 @@ textarea,
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 5rem;
+  gap: 10rem;
   padding: 1rem;
+}
+
+input[type="radio"] {
+  transform: scale(2);
 }
 @keyframes move {
   100% {
